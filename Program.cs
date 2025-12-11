@@ -85,32 +85,3 @@ benutzen wollen. Den Rest überlasse ich Ihrer Fantasie :)
     }
 }
 
-
-/*
- * bool check;
-string[] zeichen = { "a", "k", "8", "-", "?", "L", "K" };
-string pw = "";
-//string zeichen2 = "abcdefghuj .? ";
-
-// Eingabe Länge PW
-do
-
-Console. Clear();
-Console.Write("Bitte die Länge des PW eingeben: ");
-check = int. TryParse(Console. ReadLine(), out laenge);
-
-if (!check | | laenge <= 5)
-
-Console.WriteLine("Bitte eine Zahl größer 5 eingeben.");
-Console.WriteLine("Weiter mit beliebiger Taste");
-Console. ReadKey();
-
-while (!check | | laenge <= 5);
-
-// Erstellung PW
-for (int i = 0; i < laenge; i++)
-pw = pw + zeichen[rnd.Next(0, zeichen.Length)];
-
-// Ausgabe
-Console.WriteLine();
-Console.WriteLine($"Ihr Passwort: {pw}");*/
