@@ -12,12 +12,6 @@ namespace Passwortgenerator
 Dieser soll am Anfang nach der Länge des Passworts fragen
 und dann eine zufällige Kombination von Zeichen in dieser
 Länge erstellen und dem Anwender ausgeben.
-
-Hinweis:
---------
-Hinweis zu einer möglichen Lösung:
-Erstellen Sie einen Array mit allen Zeichen, welche Sie
-benutzen wollen. Den Rest überlasse ich Ihrer Fantasie :)
             */
 
             bool checklaenge = true;
